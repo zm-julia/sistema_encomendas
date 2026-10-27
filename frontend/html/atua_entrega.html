@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/atua_entrega.js" defer></script>
+    <title>Atualizar</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <br><br><hr><br>
+        </nav>
+    </header>
+    <main>
+        <h1>Atualizar Entrega</h1>
+        <br>
+        <form>
+            <label for="id">id</label><br>
+            <input type="number" id="id"><br><br>
+
+            <label for="cidade">cidade</label><br>
+            <input type="text" id="cidade"><br><br>
+
+            <label for="destino">destino</label><br>
+            <input type="text" id="destino"><br><br>
+
+            <label for="status">status</label><br>
+            <select id="status">
+                <option value="">manter</option>
+                <option value="TRANSITO">TRANSITO</option>
+                <option value="ENTREGUE">ENTREGUE</option>
+            </select><br><br>
+
+            <label for="data">data</label><br>
+            <input type="date" id="data"><br><br>
+
+            <label for="hora">hora</label><br>
+            <input type="time" id="hora"><br><br>
+
+            <label for="idCarga">idCarga</label><br>
+            <input type="number" id="idCarga"><br><br>
+
+            <button id="btn">Atualizar</button>
+        </form>
+        <div id="resposta"></div>
+    </main>
+</body>
+</html>

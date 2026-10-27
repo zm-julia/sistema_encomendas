@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/listarOrdenado_entrega.js" defer></script>
+    <title>Listar</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <br><br><hr><br>
+        </nav>
+    </header>
+    <main>
+        <h1>Listar Entregas por Data</h1>
+        <br>
+        <form>
+            <label for="ordem">ordem</label><br>
+            <select id="ordem">
+                <option value="ASC">Mais antigas primeiro</option>
+                <option value="DESC">Mais recentes primeiro</option>
+            </select><br><br>
+
+            <button id="btn">Listar</button>
+        </form>
+        <div id="resposta"></div>
+    </main>
+</body>
+</html>
